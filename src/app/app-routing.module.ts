@@ -70,9 +70,11 @@ import { AppTimelineDemoComponent } from './pages/app.timelinedemo.component';
                     { path: 'documentation', component: DocumentationComponent },
                     { path: 'blocks', component: BlocksComponent },
 
-
                     { path: 'reservation', loadChildren: () => import('./pages/reservation/reservation.module').then(m => m.ReservationModule) },
                     { path: 'house-keeping', loadChildren: () => import('./pages/house-keeping/house-keeping.module').then(m => m.HouseKeepingModule) },
+                    { path: 'fnb', loadChildren: () => import('./pages/fnb/fnb.module').then(m => m.FnbModule) },
+                    { path: 'report', loadChildren: () => import('./pages/report/report.module').then(m => m.ReportModule) },
+                    { path: 'config', loadChildren: () => import('./pages/config/config.module').then(m => m.ConfigModule) },
 
                 ]
             },

@@ -93,12 +93,12 @@ export class AppMenuComponent implements OnInit {
             {
                 label: 'F&B',
                 items: [
-                    // {
-                    //     label: 'Retail', icon: '', routerLink: [''],
-                    // },
-                    // {
-                    //     label: 'Group', icon: '', routerLink: [''],
-                    // }
+                    {
+                        label: 'Process to Order', icon: '', routerLink: ['/fnb/order'],
+                    },
+                    {
+                        label: 'Process to pay', icon: '', routerLink: ['/fnb/payment'],
+                    }
                 ]
             },
             {
