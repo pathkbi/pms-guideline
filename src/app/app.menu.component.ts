@@ -98,6 +98,15 @@ export class AppMenuComponent implements OnInit {
                     },
                     {
                         label: 'Process to pay', icon: '', routerLink: ['/fnb/payment'],
+                    },
+                    {
+                        label: 'Discount', icon: '', routerLink: ['/fnb/discount'],
+                    },
+                    {
+                        label: 'Undo Check', icon: '', routerLink: ['/fnb/undo-check'],
+                    },
+                    {
+                        label: 'Void', icon: '', routerLink: ['/fnb/void'],
                     }
                 ]
             },
