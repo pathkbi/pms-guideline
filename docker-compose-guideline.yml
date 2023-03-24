@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  hosp-fe:
+    hostname: pms-guideline
+    build:
+      context: .
+    restart: always
