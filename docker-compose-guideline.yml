@@ -1,8 +1,8 @@
 version: '3.9'
 
 services:
-  pms-guideline:
-    hostname: pms-guideline
+  guideline:
+    hostname: guideline
     build:
       context: .
     restart: always
