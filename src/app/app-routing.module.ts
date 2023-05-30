@@ -41,7 +41,7 @@ import { AppTimelineDemoComponent } from './pages/app.timelinedemo.component';
             {
                 path: '', component: AppMainComponent,
                 children: [
-                    { path: '', component: DashboardDemoComponent },
+                    { path: '', loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) },
                     { path: 'dashboards/generic', component: DashboardDemoComponent },
                     { path: 'dashboards/dashboard_banking', component: DashboardBankingComponent },
                     { path: 'uikit/formlayout', component: FormLayoutDemoComponent },
