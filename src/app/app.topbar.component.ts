@@ -27,27 +27,21 @@ import {AppMainComponent} from './app.main.component';
                         </a>
                         <ul class="layout-menu" [ngClass]="{'fadeInDown':!appMain.isMobile()}">
                             <li role="menuitem">
-                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)">
-                                    <i class="pi pi-fw pi-palette"></i>
-                                    <span>Change Theme</span>
+                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)"  class="w-100">
+                                    <img src="assets/layout/images/flag/vietnam.png"  class="icon-language-flag"/>
+                                    Tiếng Việt
                                 </a>
                             </li>
                             <li role="menuitem">
-                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)">
-                                    <i class="pi pi-fw pi-star"></i>
-                                    <span>Favorites</span>
+                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)"  class="w-100">
+                                    <img src="assets/layout/images/flag/united-kingdom.png"  class="icon-language-flag"/>
+                                    English
                                 </a>
                             </li>
                             <li role="menuitem">
-                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)">
-                                    <i class="pi pi-fw pi-lock"></i>
-                                    <span>Lock Screen</span>
-                                </a>
-                            </li>
-                            <li role="menuitem">
-                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)">
-                                    <i class="pi pi-fw pi-image"></i>
-                                    <span>Wallpaper</span>
+                                <a href="#" (click)="appMain.onTopbarSubItemClick($event)" class="w-100">
+                                    <img src="assets/layout/images/flag/cambodia.png"  class="icon-language-flag"/>
+                                    Cambodia
                                 </a>
                             </li>
                         </ul>

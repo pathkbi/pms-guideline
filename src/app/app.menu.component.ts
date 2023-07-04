@@ -121,6 +121,25 @@ export class AppMenuComponent implements OnInit {
                     },
                 ]
             },
+            {
+                label: 'Configuration',
+                items: [
+                    {
+                        label: 'Hotel', icon: '', routerLink: ['/config/hotel'],
+                    },
+
+                    {
+                        label: 'Room', icon: '',
+                        items: [
+                            { label: 'Facility', icon: '', routerLink: ['/config/facility'] },
+                            { label: 'Floor', icon: '', routerLink: ['/config/floor'] },
+                            { label: 'Room type', icon: '', routerLink: ['/config/room-type'] },
+                            { label: 'Room view', icon: '', routerLink: ['/config/room-view'] },
+                            { label: 'Room', icon: '', routerLink: ['/config/room'] },
+                        ]
+                    }
+                ]
+            },
             // {
             //     label: 'UI Kit', icon: 'pi pi-fw pi-star', routerLink: ['/uikit'],
             //     items: [

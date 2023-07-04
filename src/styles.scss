@@ -12,9 +12,17 @@ $gutter: 1rem; //for primeflex grid system
 .w-80{
     width: 80%;
 }
+.w-100 {
+    width: 100%;
+}
 .text-center {
     text-align: center;
 }
 li {
     margin-bottom: 10px;
+}
+
+.icon-language-flag {
+    margin-right: 5px;
+    width: 16px;
 }
